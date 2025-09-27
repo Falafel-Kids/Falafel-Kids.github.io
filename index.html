@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falafel Kids</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+        }
+        a{
+            margin: 0;
+            color: rgb(59, 59, 59);
+            text-decoration: none;
+            transition: color 1s ease;
+        }
+        a:hover {
+            color: black;
+        }
+        #buttons {
+            margin-top: 50px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 1s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a onclick="location.reload();">
+            <h1>Falafel Kids</h1>
+        </a>
+        <h1>Welcome to Falafel Kids, A fun and educational Site.</h1>
+    </header>
+    <main>
+        <div id="buttons">
+            <button onclick="window.location.href=('games')">Games</button>
+            <button onclick="window.location.href=('videos')">Videos</button>
+            <button onclick="window.location.href=('Learning')">Learning</button>
+            <button onclick="window.location.href=('dev')">Developing</button>
+        </div>
+    </main>
+</body>
+</html>
